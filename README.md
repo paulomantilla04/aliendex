@@ -16,4 +16,4 @@ It's a basic app which has 2 buttons, a "Show more" and "Show less" buttons that
 
 # Deployment
 
-If you don't want to fork this repository and spring straight into action, go here: 
+If you don't want to fork this repository and spring straight into action, go here: https://aliendex-eight.vercel.app/
