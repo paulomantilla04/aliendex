@@ -1,33 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Grid from './components/Grid'
+import data from './data'
+import toast, {Toaster} from 'react-hot-toast'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [visible, setVisible] = useState(3);
+  
+  const showMoreItems = () => visible <= names.length ? setVisible((prevValue) => prevValue + 3) : toast.error(`Cannot show more items`);
+  const showLessItems = () => visible > 3 ? setVisible((prevValue) => prevValue - 3) : toast.error(`Cannot show less items`);
+
+  const names = Object.keys(data).map(key => data[key].name);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main>
+          <section className='flex h-screen flex-col items-center m-5'>
+            <Grid data={data} visible={visible}></Grid>
+            <div className="m-5 flex max-[640px]:flex-col gap-4">
+              <button onClick={showMoreItems} className='border-4 border-slate-100 w-40 h-16 rounded-full text-white font-bold transition-all duration-300 hover:scale-90 hover:border-slate-400 backdrop-blur-sm bg-black/50'>Show more</button>
+              <button onClick={showLessItems} className='border-4 border-slate-100 w-40 h-16 rounded-full text-white font-bold transition-all duration-300 hover:scale-90 hover:border-slate-400 backdrop-blur-sm bg-black/50'>Show less</button>
+            </div>
+            <Toaster/>
+          </section>
+
+      </main>
     </>
   )
 }
