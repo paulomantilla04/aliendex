@@ -26,4 +26,4 @@ It's a basic app which has a search bar, where you can type the name of an alien
 
 # Deployment
 
-If you don't want to fork this repository and spring straight into action, go here: https://aliendex-eight.vercel.app/
+If you don't want to clone this repository and spring straight into action, go here: https://aliendex-eight.vercel.app/
