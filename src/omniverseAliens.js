@@ -1,0 +1,36 @@
+const omniverseAliens = {
+    alienX: {name: 'Alien X', image: 'https://external-preview.redd.it/YkyGs-85DIzehS7wXqVG6nHBqvHl0bzRdXM2wfzAroU.png?format=pjpg&auto=webp&s=20346eb983d4f8fca582c746f02d1d76a6621f1b', species: 'Celestialsapien'},
+    armodrillo: {name: 'Armodrillo', image: 'https://i.pinimg.com/564x/76/fc/72/76fc72d23eb5c83d07208de7b1b54001.jpg', species: 'Talpaedan'},
+    astrodactyl: {name: 'Astrodactyl', image: 'https://i.pinimg.com/564x/d8/77/22/d87722176aeb95a8cf43df2a854a4b8e.jpg', species: 'Unknown'},
+    atomicX: {name: 'Atomic-X', image: 'https://preview.redd.it/why-ben-10k-even-uses-atomic-x-wouldnt-alien-x-already-be-v0-loxhgq9ydd1a1.png?width=1027&format=png&auto=webp&s=a8e37ce89f596407fb781f0f9c8dbc950fe271a4', species: 'Mixed'},
+    atomix: {name: 'Atomix', image: 'https://pm1.aminoapps.com/6939/42c27a5b6b99fe43ff004998927994c8e98e6c33r1-1280-718v2_00.jpg', species: 'Unknown'},
+    ballW: {name: 'Ball Weevil', image: 'https://i.redd.it/kewqfj6j2cra1.png', species: 'Unknown'},
+    bigChill: {name: 'Big Chill', image: 'https://i.ytimg.com/vi/o4WwCm5hmgA/maxresdefault.jpg', species: 'Necrofriggian'},
+    bigChuck: {name: 'Big Chuck', image: 'https://i.ytimg.com/vi/yrWX0uQui-k/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARgXIFAofzAP&rs=AOn4CLA_lqVojHH5uCBZqJfgJ2APx9EtWw', species: 'Mixed'},
+    bloxx: {name: 'Bloxx', image: 'https://i.ytimg.com/vi/tlYqagFWabo/maxresdefault.jpg', species: 'Segmentasapien'},
+    brainstorm: {name: 'Brainstorm', image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguh9VfVF-Xu8wM5P9hJ-7dri-FrqOFWDKUtCZx21MDne_OgQsj_zB0MgfzCr6BsUpQFThrUybTWZb0IMQdnfmq-jvjOnQ-xlqQQ1kVPrDPXoUh_0enQs0mHRcVf4tdO-5CzF0qNnFt8Nyu/w1200-h630-p-k-no-nu/Brainstorm+Ben+10+Omniverse+Vengers+Omnicoid+Episode.png', species: 'Cerebrocrustacean'},
+    bullFrag: {name: 'Bullfrag', image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98kD-wwQ5iFo9PG9jn2FHkYbYUQ4DJv50IUsMIPZKpjJ-2NhCUoQ5OkaIY65GqnGUplLCusRqUxmJ7VUsKiu-xaOvU4gKphOwCiRphSKV8uI5C-I2Xe6tcwihL9SR7eRZ4wA_EeVeRtFp/w1200-h630-p-k-no-nu/Bullfrag+Ben+10+Omniverse+reboot+season+2+new+episode+online+incursean+incursion+frog+of+war+attea+omnitrix.png', species: 'Incursian'},
+    cannonbolt: {name: 'Cannonbolt', image: 'https://i.pinimg.com/564x/48/aa/a3/48aaa3b79ba11dd95c563089633da15e.jpg', species: 'Arburian Pelarota'},
+    chromastone: {name: 'Chromastone', image: 'https://i.pinimg.com/564x/67/fa/03/67fa030094e41826d871bc72c5585cae.jpg', species: 'Crystalsapien'},
+    crashHopper: {name: 'Crashhopper', image: 'https://preview.redd.it/y3bzcho0wi271.jpg?auto=webp&s=ed0fd92a9d2aec2b3f7f80bdef4c857a5b71a9ea', species: 'Orthopterran'},
+    echo: {name: 'Echo Echo', image: 'https://i.ytimg.com/vi/wJ0QVMJS5zI/maxresdefault.jpg', species: 'Sonorosian'},
+    feedBack: {name: 'Feedback', image: 'https://preview.redd.it/mo6w5jf4nun91.jpg?width=1080&crop=smart&auto=webp&s=b4ee939df756f94dda93c8d53ebea09ac32fd0fa', species: 'Conductoid'},
+    fourM: {name: 'Fourmungousaur', image: 'https://preview.redd.it/how-strong-is-fourmungousaur-physically-i-mean-calling-all-v0-q41bgx5x435b1.jpg?auto=webp&s=8adce629c082d69a15b329a2abf058388189084a', species: 'Mixed'},
+    gravattack: {name: 'Gravattack', image: 'https://i.redd.it/czwyko6eu6e71.jpg', species: 'Galilean'},
+    gutrot: {name: 'Gutrot', image: 'https://i.pinimg.com/736x/cc/0d/5d/cc0d5d4609dd1211ecadbf7746ba254c.jpg', species: 'Unknown'},
+    heatblast: {name: 'Heatblast', image: 'https://i.pinimg.com/564x/73/b1/42/73b1426f731da4ffd0e090274ba281f1.jpg', species: 'Pyronite'},
+    humongosaur: {name: 'Humungousaur', image: 'https://e1.pxfuel.com/desktop-wallpaper/770/1006/desktop-wallpaper-dried-mango-humungousaur-humungousaur-ben-10.jpg', species: 'Vaxasaurian'},
+    humongoop: {name: 'Humongoopsaur', image: 'https://preview.redd.it/7tahpavxby481.jpg?auto=webp&s=2bbb1ef3799ec4a390d913769a606c85ffbbc6e9', species: 'Mixed'},
+    spidermoneky: {name: 'Spidermonkey', image: 'https://ben10hero.com/wp-content/uploads/2016/11/tt_300.png', species: 'Arachnichimp'},
+    swampfire: {name: 'Swampfire', image: 'https://i.pinimg.com/564x/4e/a7/43/4ea743228906659bbc011956195607e7.jpg', species: 'Methanosian'},
+    kickinHawk: {name: 'Kickin Hawk', image: 'https://i.redd.it/593tc3lz56o71.png', species: 'Unknown'},
+    moleStache: {name: 'Mole-Stache', image: 'https://preview.redd.it/your-thoughts-on-mole-stache-v0-68w6zzkewkia1.png?width=640&crop=smart&auto=webp&s=bb8acce81999694f9fd108dd3f67eff1c4114875', species: 'Unknown'},
+    peskyDust: {name: 'Pesky Dust', image: 'https://i.redd.it/pesky-dust-is-the-one-goofy-omniverse-alien-that-actually-v0-0vwukjf0zrgb1.png?width=1280&format=png&auto=webp&s=4f82402ff3e613bf483016a84c4a722c506671de', species: 'Nemuina'},
+    worst: {name: 'The Worst', image: 'https://preview.redd.it/what-do-you-all-think-of-the-worst-v0-bpuke8ow3zdb1.png?auto=webp&s=9b8c1b50b7810e638a6133b925e5100f3b76d28c', species: 'Atrocian'},
+    toepick: {name: 'Toepick', image: 'https://i.redd.it/y8z76elyz5r91.jpg', species: 'Unknown'},
+    upchuck: {name: 'Upchuck', image: 'https://preview.redd.it/and-they-say-that-ditto-is-the-cutest-alien-v0-s5o9k8noxr3b1.png?auto=webp&s=89482280e6550e3eaed01977e10d6c4fa40a84e7', species: 'Perk/Murk Gourmand'},
+    walkatrout: {name: 'Walkatrout', image: 'https://preview.redd.it/if-it-were-up-to-you-which-ten-omnitrix-aliens-would-you-v0-v1f9utsta7ob1.jpg?auto=webp&s=0111b65dcfd4ad64795a83850df6d32cd1b67836', species: 'Ickthyperambuloid'}
+    
+};
+
+export default omniverseAliens;
