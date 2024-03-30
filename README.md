@@ -4,11 +4,21 @@ This is a personal project which shows an "Aliendex", a basic and short list abo
 
 # Installation
 
-First, run the development server:
-
+First, clone this repository:
+```bash
+git clone https://github.com/paulomantilla04/aliendex.git
+```
+Then, install all the dependencies:
+```bash
+npm install
+```
+After that, run the development server:
 ```bash
 npm run dev
 ```
+
+Finally, open http://localhost:3000 with your browser to see the result.
+
 
 # Features
 
