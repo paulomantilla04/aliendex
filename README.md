@@ -12,7 +12,7 @@ npm run dev
 
 # Features
 
-It's a basic app which has 2 buttons, a "Show more" and "Show less" buttons that are used to load more or less content, depending what you want.
+It's a basic app which has a search bar, where you can type the name of an alien and it will be shown a result
 
 # Deployment
 
